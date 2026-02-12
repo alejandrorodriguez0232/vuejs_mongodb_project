@@ -34,6 +34,35 @@ PORT=5000
 NODE_ENV=development
 ```
 
+```powershell
+# Start MongoDB
+mongod
+# or
+net start MongoDB
+```
+
+```powershell
+# Start Backend
+cd backend
+npm run dev
+```
+
+```powershell
+# Start Frontend
+cd frontend
+npm run serve
+```
+
+```powershell
+cd backend
+npm run dev
+```
+
+```powershell
+cd frontend
+npm run serve
+```
+
 5. Start the backend server:
 ```bash
 # Development mode (with nodemon)
